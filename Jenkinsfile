@@ -17,7 +17,7 @@ pipeline {
 
           post {
         always {
-          archiveArtifacts 'Greet/*.jar'
+          archiveArtifacts 'target/*.jar'
         }
           }
         }
